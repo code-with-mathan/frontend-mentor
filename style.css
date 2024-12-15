@@ -1,0 +1,158 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Young Serif", serif;
+  font-weight: 400;
+  color: hsl(24, 5%, 18%);
+  padding-top: 16px;
+  padding-bottom: 16px;
+
+}
+
+body {
+  font-family: "Outfit", sans-serif;
+  background-color: hsl(30, 18%, 87%);
+  font-size: "16px";
+  height: 100vh;
+}
+
+p {
+  font-family: "Outfit", sans-serif;
+  font-weight: 400;
+  line-height: 1.5rem;
+  color: hsl(30, 10%, 34%);
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  padding-top: 100px;
+  padding-bottom: 100px; 
+
+  gap: 16px;
+
+}
+
+.product-container {
+  display: flex;
+  flex-direction: column;
+  width: 650px;
+  height: 100%;
+  gap: 20px;
+  background-color: hsl(0, 0%, 100%);
+  border-radius: 20px;
+  padding: 32px;
+}
+img.omlet-img {
+  object-fit: contain;
+  width: 100%;
+  height: 100%;
+  border-radius: 20px;
+}
+
+.preparation-section {
+}
+
+.stone-100 {
+  color: hsl(30, 54%, 90%);
+}
+.stone-150 {
+  color: hsl(30, 18%, 87%);
+}
+
+.stone-600 {
+  color: hsl(30, 10%, 34%);
+}
+.stone-900 {
+  color: hsl(24, 5%, 18%);
+}
+.stone-900 {
+  color: hsl(24, 5%, 18%);
+}
+
+.brown-800 {
+  color: hsl(14, 45%, 36%);
+}
+
+.rose-800 {
+  color: hsl(332, 51%, 32%);
+}
+.rose-50 {
+  color: hsl(330, 100%, 98%);
+}
+
+.font-size-20 {
+  font-size: 20px;
+}
+
+.font-bold {
+  font-weight: 600;
+}
+
+.preparation-section {
+  background-color: hsl(330, 100%, 98%);
+  padding: 32px;
+  border-radius: 20px;
+  margin-top: 32px;
+}
+
+ul, ol {
+    list-style-position: outside;
+    padding-left: 1.5rem;
+  }
+  
+  ul li, ol li {
+    padding-left: 2rem; /* Add spacing */
+  }
+
+  .styled-table {
+    width: 100%;
+    border-collapse: collapse;
+    padding: 1rem;
+    font-size: 16px;
+    text-align: left;
+  }
+  
+  .styled-table tr{
+    border-bottom: 1px solid hsl(30, 18%, 87%);
+
+  }
+  .styled-table td {
+    padding: 12px;
+  }
+  .styled-table tr:last-child {
+    border-bottom: none; /* Remove bottom border for last child */
+}
+
+@media  (max-width:1439px){
+    
+.container {
+   padding-top: 0px;
+   padding-bottom: 0px;
+  }
+  
+  img.omlet-img {
+    object-fit: contain;
+    width: 100%;
+    height: 100%;
+    border-radius: 0px;
+  }
+
+  .product-container{
+    padding: 0;
+    border-radius: 0;
+  }
+  .content{
+    padding: 32px;
+  }
+}
